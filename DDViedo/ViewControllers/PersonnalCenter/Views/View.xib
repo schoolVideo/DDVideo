@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6254" systemVersion="14B25" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6254"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="vAN-By-pVo" customClass="View">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="320"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="hRo-CH-7yh">
+                    <rect key="frame" x="99" y="89" width="100" height="100"/>
+                    <color key="backgroundColor" red="1" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="hRo-CH-7yh" secondAttribute="trailing" constant="110" id="2dW-Gk-UiE"/>
+                <constraint firstItem="hRo-CH-7yh" firstAttribute="leading" secondItem="vAN-By-pVo" secondAttribute="leading" constant="110" id="Yvc-nj-jV7"/>
+                <constraint firstAttribute="bottom" secondItem="hRo-CH-7yh" secondAttribute="bottom" constant="100" id="ndA-Vd-VDA"/>
+                <constraint firstItem="hRo-CH-7yh" firstAttribute="top" secondItem="vAN-By-pVo" secondAttribute="top" constant="100" id="nlr-cc-NC5"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="picView" destination="hRo-CH-7yh" id="484-sT-AQp"/>
+            </connections>
+            <point key="canvasLocation" x="41" y="80"/>
+        </view>
+    </objects>
+</document>

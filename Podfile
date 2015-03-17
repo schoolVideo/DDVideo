@@ -1,0 +1,12 @@
+platform :ios, '7.0'
+pod "AFNetworking", "~> 2.0"
+pod 'SDWebImage', '~>3.6'
+pod 'BlocksKit'
+pod 'SVSegmentedControl'
+pod 'SVProgressHUD'
+pod 'ASIHTTPRequest'
+pod 'RTLabel'
+pod 'DTCoreText'
+pod 'NoticeView'
+pod 'TPKeyboardAvoiding'
+pod 'MJRefresh'
